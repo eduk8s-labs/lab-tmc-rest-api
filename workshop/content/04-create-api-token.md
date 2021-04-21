@@ -1,4 +1,6 @@
-Although you may have existing API tokens you could use, create a new API token for this workshop. To do this click on "GENERATE TOKEN".
+Although you may have existing API tokens you could use, we will create a new API token for this workshop.
+
+To create the access token click on "GENERATE TOKEN".
 
 ![](vmware-cloud-services-generate-token.png)
 

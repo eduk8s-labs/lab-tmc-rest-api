@@ -9,4 +9,5 @@ modules:
     - 05-rest-client-config
     - 06-organization-name
     - 07-testing-rest-client
+    - 08-rest-api-documentation
     - 99-workshop-summary

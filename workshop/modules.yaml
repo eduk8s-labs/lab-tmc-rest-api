@@ -13,6 +13,8 @@ modules:
         name: Organization Name
     07-testing-rest-client:
         name: Testing REST Client
+    08-rest-api-documentation:
+        name: REST API Documentation
     99-workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop
