@@ -10,4 +10,4 @@ Take note of the initial host name appearing in the fullly qualified hostname of
 
 Replace the string "replace-with-organization-name" in the VS Code Editor user settings with this value and save the settings.
 
-The fully qualified hostname of the URL is actually the hostname for where the TMC REST API will be hosted. This is why we needed the initial hostname, as it will be used to fill in the hostname used when making the REST API calls.
+The fully qualified hostname of the URL for the TMC web console is also the hostname for where the TMC REST API will be hosted. This is why we needed the initial hostname, as it will be used to fill in the hostname used when making the REST API calls.

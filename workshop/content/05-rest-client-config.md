@@ -10,7 +10,8 @@ command: workbench.action.openSettingsJson
 
 Click on the action below to copy the configuration snippet:
 
-```workshop:copy-any-edit
+```workshop:copy-and-edit
+text: |-
     "rest-client.environmentVariables": {
         "$shared": {
             "tmc_organization": "replace-with-organization-name",
@@ -23,6 +24,6 @@ Paste this immediately after the opening brace of the settings to yield:
 
 ![](vscode-editor-user-settings.png)
 
-Now return to the VMware Cloud Services console and click on "COPY" in the popup showing the generated access token. Replace the string "replace-with-your-access-token" in the VS Code Editor user settings.
+Now return to the VMware Cloud Services console and click on "COPY" in the popup showing the generated access token. Replace the string "replace-with-your-access-token" in the VS Code Editor user settings by pasting the value for the access token from the paste buffer.
 
-You will also need to replace the string "replace-with-organization-name" with the slug name for the VMware Cloud Services organization you are using. Unfortunately this name is not displayed in the popup displaying the generated access token, or anywhere else in the VMWare Cloud Services console, so you will need to work out what it is from the URL when accessing the Tanzu Mission Control web interface.
+You will also need to replace the string "replace-with-organization-name" with the slug name for the VMware Cloud Services organization you are using. Unfortunately this name is not displayed in the popup displaying the generated access token, or anywhere else in the VMWare Cloud Services console, so you will first need to work out what it is from the URL used when accessing the Tanzu Mission Control web interface.
