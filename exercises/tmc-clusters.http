@@ -1,0 +1,16 @@
+@cloud_services_host=console.cloud.vmware.com
+@tmc_organization_host={{tmc_organization}}.tmc.cloud.vmware.com
+
+###
+
+# @name authorize
+POST https://{{cloud_services_host}}/csp/gateway/am/api/auth/api-tokens/authorize
+Content-Type: application/x-www-form-urlencoded
+
+refresh_token={{tmc_refresh_token}}
+
+###
+
+# @name list-clusters
+GET {{tmc_organization_host}}/v1alpha1/clusters
+Authorization: Bearer {{authorize.response.body.access_token}}
