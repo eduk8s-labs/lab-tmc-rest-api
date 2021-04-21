@@ -1,4 +1,4 @@
-Next we need to access the web page for generating access tokens.
+In order to be able to access the TMC REST API we first need to generate an access token for VMware Cloud Services.
 
 From the VMware Cloud Services console click on the user dropdown menu top right and select "My Account".
 
