@@ -1,13 +1,15 @@
 apiVersion: training.eduk8s.io/v1alpha1
 kind: TrainingPortal
 metadata:
-  name: lab-markdown-sample
+  name: lab-tmc-rest-api
 spec:
   portal:
+    password: tanzu
     registration:
       type: anonymous
+    sessions:
+      maximum: 1
   workshops:
-  - name: lab-markdown-sample
-    capacity: 1
-    expires: 60m
-    orphaned: 5m
+  - name: lab-tmc-rest-api
+    expires: 120m
+    orphaned: 15m

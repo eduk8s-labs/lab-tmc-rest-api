@@ -1,17 +1,13 @@
 apiVersion: training.eduk8s.io/v1alpha2
 kind: Workshop
 metadata:
-  name: lab-markdown-sample
+  name: lab-tmc-rest-api
 spec:
-  title: Markdown Sample
-  description: A sample workshop using Markdown
-  vendor: eduk8s.io
-  difficulty: beginner
-  duration: 15m
-  url: https://github.com/eduk8s/lab-markdown-sample
+  title: TMC REST API
+  description: A workshop exploring the TMC REST API
+  url: https://github.com/eduk8s-labs/lab-tmc-rest-api
   content:
-    #image: quay.io/eduk8s/lab-markdown-sample:master
-    files: github.com/eduk8s/lab-markdown-sample
+    files: github.com/eduk8s-labs/lab-tmc-rest-api
   session:
     namespaces:
       budget: small
@@ -21,5 +17,6 @@ spec:
         layout: split
       console:
         enabled: true
+        vendor: octant
       editor:
         enabled: true
